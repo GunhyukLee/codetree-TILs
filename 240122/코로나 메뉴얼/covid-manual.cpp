@@ -8,7 +8,7 @@ int main() {
     cin >> yb >> b;
     cin >> yc >> c;
 
-    if ( (ya="Y" && a>=37) ) {
+    if ( ya='Y' && a>=37 ) {
         if ( (yb="Y" && b>=37) || (yc="Y" && c>=37))
             cout << "E";
         else
