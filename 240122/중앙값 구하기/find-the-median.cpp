@@ -6,10 +6,10 @@ int main() {
     cin >> a >> b >> c;
 
     if (a>b && a>c) {
-        if (b>a)
+        if (b>c)
             cout << b;
-        else if (a>b)
-            cout << a;
+        else if (c>b)
+            cout << c;
     }
     else if (b>a && b>c) {
         if (a>c)
@@ -20,7 +20,7 @@ int main() {
     else if (c>a && c>b) {
         if (a>b)
             cout << a;
-        else
+        else if (b>a)
             cout << b;
     }
     // 여기에 코드를 작성해주세요.
