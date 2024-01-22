@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a>=90 && (b>=95 && b<=100))
+        cout << 100000;
+    else if (a>=90 && b>=90)
+        cout << 50000;
+    else
+        cout << 0;
+    // 여기에 코드를 작성해주세요.
+    return 0;
+}
