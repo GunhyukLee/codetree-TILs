@@ -10,13 +10,13 @@ int main() {
 
     if ( ya=='Y' && a>=37 ) {
         if ( (yb=='Y' && b>=37) || (yc=='Y' && c>=37))
-            cout << 'Y';
+            cout << "E";
         else
-            cout << 'Y';
+            cout << "N";
     }
     else {
         if ( (yb=='Y' && b>=37) && (yc=='Y' && c>=37) )
-            cout << 'Y';
+            cout << "E";
         else
             cout << "N";
     }
