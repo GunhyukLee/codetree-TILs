@@ -8,15 +8,15 @@ int main() {
     cin >> yb >> b;
     cin >> yc >> c;
 
-    if ( ya='Y' && a>=37 ) {
-        if ( (yb="Y" && b>=37) || (yc="Y" && c>=37))
-            cout << "E";
+    if ( ya=='Y' && a>=37 ) {
+        if ( (yb=='Y' && b>=37) || (yc=='Y' && c>=37))
+            cout << 'Y';
         else
-            cout << "N";
+            cout << 'Y';
     }
     else {
-        if ( (yb="Y" && b>=37) && (yc="Y" && c>=37) )
-            cout << "E";
+        if ( (yb=='Y' && b>=37) && (yc=='Y' && c>=37) )
+            cout << 'Y';
         else
             cout << "N";
     }
