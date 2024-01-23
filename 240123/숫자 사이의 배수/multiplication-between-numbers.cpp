@@ -14,7 +14,7 @@ int main() {
         }
     }
     cout << fixed, cout.precision(1);
-    cout << sum << " " << double(sum)/(cnt);
+    cout << sum << " " << (double)sum/cnt;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
