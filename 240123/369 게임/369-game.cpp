@@ -13,6 +13,8 @@ int main() {
         else if (i>=10) {
             if ((i%((i/10)*10))%3==0)
                 cout << 0 << " ";
+            else if ((i/10)%3==0)
+                cout << 0 << " ";
             else 
                 cout << i << " ";
         }
