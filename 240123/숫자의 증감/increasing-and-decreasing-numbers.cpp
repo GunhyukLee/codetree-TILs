@@ -12,7 +12,7 @@ int main() {
             cout << i << " ";
     }
     else if (c=='D') {
-        for (int i=n; i<=1; i--)
+        for (int i=n; i=1; i--)
             cout << i << " ";
     }
     // 여기에 코드를 작성해주세요.
