@@ -9,6 +9,8 @@ int main() {
         for (i=1;i<=b;i++)
             cout << a;
     }
+    else
+        cout << 0;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
