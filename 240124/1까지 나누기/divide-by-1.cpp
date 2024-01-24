@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    int aa = 0;
-
+    int cnt = 0;
+    int aa = n;
     for (int i=1; i<=n; i++) {
-        n /= i;
-        aa++;
-        if (n<=1) {
-            cout << aa;
+        aa /= i;
+        cnt++;
+        if (aa<=1) {
+            cout << cnt;
             break;
         }
     }
