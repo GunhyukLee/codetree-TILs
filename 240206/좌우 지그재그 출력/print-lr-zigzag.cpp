@@ -4,20 +4,19 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    int cnt = 0;
+    int cnt = 1;
 
-    for (int i=1; i<=n; i++) {
-        if (i%2==1) {
-            for (int j=1;j<=n;j++) {
-                cnt++;
-                cout << cnt << " ";
+    for (int i=0; i<n; i++) {
+    
+        if (i%2==0) {
+            for (int j=0;j<n;j++) {
+                cout << n*i+1+j << " ";
             }
         }
+
         else {
-            cnt = n*i;
-            for (int j=1;j<=n;j++) {
-                cout << cnt << " ";
-                cnt--;
+            for (int j=0;j<n;j++) {
+                cout << (i+1)*n-j << " ";
             }
         }
         cout << endl;
