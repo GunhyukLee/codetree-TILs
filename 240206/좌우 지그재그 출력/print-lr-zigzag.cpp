@@ -8,14 +8,13 @@ int main() {
 
     for (int i=1; i<=n; i++) {
         if (i%2==1) {
-            cnt = cnt*2;
             for (int j=1;j<=n;j++) {
                 cnt++;
                 cout << cnt << " ";
             }
         }
         else {
-            cnt = 2*cnt;
+            cnt = n*i;
             for (int j=1;j<=n;j++) {
                 cout << cnt << " ";
                 cnt--;
