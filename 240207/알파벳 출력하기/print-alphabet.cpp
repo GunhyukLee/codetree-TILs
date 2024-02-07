@@ -10,7 +10,7 @@ int main() {
             cout << char(x);
             x++;
         }
-        if (char(x)=='Z') {
+        if (x==89) {
             x=(int)'A';
         }
         for (int j=1; j<=n-i; j++) {
