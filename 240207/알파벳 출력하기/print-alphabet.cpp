@@ -10,7 +10,7 @@ int main() {
             cout << char(x);
             x++;
         }
-        if (x==89) {
+        if (x==90) {
             x=65;
         }
         for (int j=1; j<=n-i; j++) {
