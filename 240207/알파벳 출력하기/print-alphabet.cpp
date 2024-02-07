@@ -11,7 +11,7 @@ int main() {
             x++;
         }
         if (x==89) {
-            x=(int)'A';
+            x=65;
         }
         for (int j=1; j<=n-i; j++) {
             cout << " ";
