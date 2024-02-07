@@ -10,6 +10,9 @@ int main() {
             cout << char(x);
             x++;
         }
+        if (char(x)=="Z") {
+            x=(int)'A'
+        }
         for (int j=1; j<=n-i; j++) {
             cout << " ";
         }
