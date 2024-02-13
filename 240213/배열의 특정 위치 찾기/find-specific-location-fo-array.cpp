@@ -17,11 +17,13 @@ int main() {
         cnt1 ++;
     }
 
-    for (int j=2;j<10;j+=3) {
-        sum2 += a[j];
+    for (int k=2;k<10;k+=3) {
+        sum2 += a[k];
         cnt2 ++;
     }
+
     double b = sum2/cnt2;
+
     cout << fixed, cout.precision(1);
     cout << sum1 << " " << b;
     
