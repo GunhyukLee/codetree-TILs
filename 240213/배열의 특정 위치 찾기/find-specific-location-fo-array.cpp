@@ -22,10 +22,8 @@ int main() {
         cnt2 ++;
     }
 
-    double b = (double)sum2/cnt2;
-
     cout << fixed, cout.precision(1);
-    cout << sum1 << " " << b;
+    cout << sum1 << " " << (double)sum2/cnt2;
     
     return 0;
 }
