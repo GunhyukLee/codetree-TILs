@@ -9,7 +9,11 @@ int main() {
     for (int i=0; i<10; i++) {
         cin >> a[i];
 
-        if (a[i]%2==0 && a[i]!=0) {
+        if (a[i]==0) {
+            break;
+        }
+
+        if (a[i]%2==0) {
             cnt ++;
             sum += a[i];
         }
