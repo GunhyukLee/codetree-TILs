@@ -21,9 +21,9 @@ int main() {
         sum2 += a[j];
         cnt2 ++;
     }
-
+    double b = sum2/cnt2;
     cout << fixed, cout.precision(1);
-    cout << sum1 << " " << double(sum2/cnt2);
+    cout << sum1 << " " << b;
     
     return 0;
 }
