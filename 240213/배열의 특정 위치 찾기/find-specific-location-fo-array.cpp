@@ -12,7 +12,7 @@ int main() {
         cin >> a[i];
     }
 
-    for (int j=1;j<10;j+=2) {
+    for (int j=0;j<10;j+=2) {
         sum1 += a[j];
         cnt1 ++;
     }
@@ -24,6 +24,6 @@ int main() {
 
     cout << fixed, cout.precision(1);
     cout << sum1 << " " << double(sum2/cnt2);
-    // 여기에 코드를 작성해주세요.
+    
     return 0;
 }
