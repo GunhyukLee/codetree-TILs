@@ -25,8 +25,6 @@ int main() {
         cnt_B[(int)x[i]-65]++;
     }
     
-
-
     for (int i=0;i<4;i++) {
         cout << cnt_B[i] << " ";
     }
