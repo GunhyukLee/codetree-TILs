@@ -35,10 +35,10 @@ int main() {
         else if (num_q[i]==3) {
             cin >> a >> b;
             for (int i=a-1;i<b;i++) {
-                cout << num[i] << " ";
+                cout << num[i] << " " << endl;
             }
         }
     }
-    // 여기에 코드를 작성해주세요. 문제 자체를 못 알아먹게 좆같이도 냈네
+    // 여기에 코드를 작성해주세요.
     return 0;
 }
