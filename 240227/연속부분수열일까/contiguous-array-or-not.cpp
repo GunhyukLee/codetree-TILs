@@ -12,10 +12,9 @@ int main() {
     for (int i=0;i<n2;i++) {
         cin >> B[i];
     }
-
+    int cnt;
     for (int i=0; i<n2; i++) {
-        int a == B[i];
-        int cnt =0;
+        cnt = 0;
         for (int j=0; j<n1; j++) {
             if (B[i]==A[j]) {
                 cnt++;
