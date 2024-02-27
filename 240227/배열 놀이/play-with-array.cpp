@@ -35,8 +35,9 @@ int main() {
         else if (num_q[i]==3) {
             cin >> a >> b;
             for (int i=a;i<=b;i++) {
-                cout << num[i-1] << " " << endl;
+                cout << num[i-1] << " ";
             }
+            cout << endl;
         }
     }
     // 여기에 코드를 작성해주세요.
