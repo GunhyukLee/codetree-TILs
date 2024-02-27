@@ -21,7 +21,7 @@ int main() {
             }
         }
     }
-    if (cnt==n2) {
+    if (cnt>=n2) {
         cout << "Yes";
     }
     else
