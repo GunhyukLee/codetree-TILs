@@ -34,8 +34,8 @@ int main() {
         }
         else if (num_q[i]==3) {
             cin >> a >> b;
-            for (int i=a-1;i<b;i++) {
-                cout << num[i] << " " << endl;
+            for (int i=a;i<=b;i++) {
+                cout << num[i-1] << " " << endl;
             }
         }
     }
