@@ -12,7 +12,7 @@ int main() {
         cin >> num[i];
     }
 
-    for (int i=0;i<n;i++) {
+    for (int i=0;i<q;i++) {
         cin >> num_q[i];
         if (num_q[i]==1) {
             cin >> a;
