@@ -31,6 +31,9 @@ int main() {
         else {
             cnt++;
         }
+        if (cnt==n2) {
+            break;
+        }
     }
 
     if (cnt==n2) {
