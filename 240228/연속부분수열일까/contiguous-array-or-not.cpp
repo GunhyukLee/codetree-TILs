@@ -13,16 +13,26 @@ int main() {
         cin >> B[i];
     }
 
-    int cnt;
-    for (int i=0; i<n2; i++) {
-        for (int j=0; j<n1; j++) {
-            if (B[i]==A[j]) {
-                cnt++;
-            }
-            else
-            cnt--;
+    int C[n1] = {};
+    
+    for (int i=0; i<n1; i++) {
+        if (A[i]==B[0]) {
+            C[i] = 1;
         }
     }
+
+    int cnt;
+
+    for (int i=0; i<n1; i++) {
+        if (A[i]!=B[0]) {
+            cnt = 0;
+            continue;
+        }
+        else {
+            cnt++;
+        }
+    }
+
     if (cnt==n2) {
         cout << "Yes";
     }
