@@ -24,7 +24,7 @@ int main() {
     int cnt;
 
     for (int i=0; i<n1; i++) {
-        if (A[i]!=B[0]) {
+        if (A[i]!=B[cnt]) {
             cnt = 0;
             continue;
         }
