@@ -27,7 +27,7 @@ int main() {
         if (max_val > a[i] && a[i]>=max_val2) {
             max_val2 = a[i];
         }
-        if (cnt ==2 ) {
+        else if (cnt ==2 ) {
             max_val2 = a[i];
         }
     }
