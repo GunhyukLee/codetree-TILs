@@ -6,7 +6,7 @@ int main() {
     cin >> a >> b;
     int prod = 1;
 
-    for (int i=0; i<=b;i++) {
+    for (int i=0; i<b;i++) {
         prod*=a;
     }
     cout << prod;
