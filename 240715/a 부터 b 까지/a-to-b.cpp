@@ -5,8 +5,6 @@ int main() {
     int a,b,i;
     cin >> a >> b;
 
-    cout << a;
-
     for (i=a; i<=b; i) {
         if (a<=i && i<=b) {
             cout << i << " ";
