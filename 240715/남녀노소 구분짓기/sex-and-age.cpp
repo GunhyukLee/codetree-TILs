@@ -4,8 +4,7 @@ using namespace std;
 int main() {
     int s, a;
 
-    cin >> s;
-    cin >> a;
+    cin >> s >> a;
 
     if (s==1) {
         if (a>=19)
