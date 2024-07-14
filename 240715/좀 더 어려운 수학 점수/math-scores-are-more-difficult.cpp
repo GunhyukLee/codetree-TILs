@@ -6,10 +6,13 @@ int main() {
     cin >> A_m >> A_e;
     cin >> B_m >> B_e;
 
-    if (A_m>B_m || (A_m>=B_m && A_e>B_e))
+    if ( (A_m>B_m) || (A_m==B_m && A_e>B_e) ) {
         cout << "A";
-    else 
+    }
+    else {
         cout << "B";
+    }
+
     // 여기에 코드를 작성해주세요.
     return 0;
 }
