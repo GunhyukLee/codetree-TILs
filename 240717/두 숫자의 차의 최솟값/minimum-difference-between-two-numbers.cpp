@@ -13,17 +13,11 @@ int main() {
         cin >> a[i];
     }
 
-    for (int i=0;i<n-1;i++) {
-        for (int j=i+1;j<n;j++) {
-            if (j==i) {
-                break;
-            }
-            else {
-                if (min>=a[j]-a[i])
-                min = a[j]-a[i];
-            }
+    for (int i=1;i<n;i++) {
+        if (min >= a[i]-a[i-1])
+            min = a[i]-a[i-1];
         }
-    }
+
     cout << min;
     return 0;
 }
