@@ -13,7 +13,7 @@ int main() {
         cin >> a[i];
     }
 
-    for (int i=n;i>=0;i--) {
+    for (int i=n;i>0;i--) {
         for (int j=i-1;j>=0;j--) {
             if (j==i) {
                 break;
