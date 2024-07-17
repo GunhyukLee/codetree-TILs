@@ -5,7 +5,7 @@ int main() {
     int n;
     cin >> n;
 
-    int arr[100][100]={};
+    int arr[n][n];
 
     int cnt = 1;
 
