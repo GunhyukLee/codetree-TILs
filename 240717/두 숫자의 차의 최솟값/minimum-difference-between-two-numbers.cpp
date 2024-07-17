@@ -13,14 +13,14 @@ int main() {
         cin >> a[i];
     }
 
-    for (int i=n;i>0;i--) {
-        for (int j=i-1;j>=0;j--) {
+    for (int i=0;i<n-1;i++) {
+        for (int j=i+1;j<n;j++) {
             if (j==i) {
                 break;
             }
             else {
-                if (min>=a[i]-a[j])
-                min = a[i]-a[j];
+                if (min>=a[j]-a[i])
+                min = a[j]-a[i];
             }
         }
     }
