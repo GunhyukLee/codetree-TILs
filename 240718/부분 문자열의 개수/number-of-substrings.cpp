@@ -19,7 +19,6 @@ int main() {
             }
             else {
                 count = 0;
-                continue;
             }
 
             if (count==B.length()) {
