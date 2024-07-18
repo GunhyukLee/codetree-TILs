@@ -7,6 +7,9 @@ int main() {
     cin >> A >> B;
     int cnt =0;
     int count=0;
+
+    bool C = false;
+    int d = 0;
     for (int i=0;i<A.length()-B.length()+1;i++) {
     
         for (int j=0;j<B.length();j++) {
@@ -18,11 +21,15 @@ int main() {
             }
 
             if (count==B.length()) {
-                cnt++;
+                C = true;
+                d = i;
             }
         } 
     }
-    cout << cnt;
+    if (C==true) 
+    cout << d;
+    else
+    cout << -1;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
