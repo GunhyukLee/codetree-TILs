@@ -9,7 +9,7 @@ int main() {
 
     int day_s = d1;
     int month_s = m1;
-    int cnt = 1;
+    int cnt = 0;
 
     while (1) {
         cnt++;
