@@ -45,10 +45,10 @@ int main() {
         }
     }
 
-    int cnt=0;
+    int cnt=-1;
     for (int i=1;i<1000;i++) {
         if (A[i]==B[i]) {
-            cnt++;
+            cnt = i;
             break;
         }
         cnt++;
