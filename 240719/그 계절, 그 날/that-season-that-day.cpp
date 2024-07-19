@@ -31,7 +31,7 @@ bool JudgeDay(int Y,int M, int D) {
 }
 
 bool C(int Y, int M, int D) {
-    if (A(Y)==1 && JudgeDay(Y,M,D)==1) {
+    if (JudgeDay(Y,M,D)==1) {
         return true;
     }
 return false;
