@@ -55,7 +55,3 @@ int main() {
     cout << ans;
     return 0;
 }
-    cout << cnt;
-    // 여기에 코드를 작성해주세요.
-    return 0;
-}
