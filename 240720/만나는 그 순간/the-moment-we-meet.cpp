@@ -46,12 +46,15 @@ int main() {
     }
 
     int cnt=0;
-    for (int i=1;i<100;i++) {
+    for (int i=1;i<1000;i++) {
         if (A[i]==B[i]) {
             cnt++;
             break;
         }
         cnt++;
+        if (i==999) {
+            cnt = 0;
+        }
     }
 
     cout << cnt;
