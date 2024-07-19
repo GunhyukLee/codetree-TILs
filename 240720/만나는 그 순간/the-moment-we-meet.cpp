@@ -8,9 +8,6 @@ int main() {
     int A[10000]={};
     int B[10000]={};
 
-    A[0] = 0;
-    B[0] = 0;
-
     int time_a = 1;
     for (int i=0;i<N;i++) {
         char D;
@@ -52,7 +49,6 @@ int main() {
             break;
         }
     }
-
     cout << cnt;
     // 여기에 코드를 작성해주세요.
     return 0;
