@@ -12,14 +12,14 @@ int main() {
     int cnt = 0;
 
     while (1) {
-        if (m1==m2 && day_s==d2) {
+        if (month_s==m2 && day_s==d2) {
             break;
         }
         cnt++;
         day_s++;
         
         if (day_s > month[m1]) {
-            m1++;
+            month_s++;
             day_s=1;
         }
     }
