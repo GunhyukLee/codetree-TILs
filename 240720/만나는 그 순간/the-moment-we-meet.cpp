@@ -51,10 +51,6 @@ int main() {
             cnt = i;
             break;
         }
-        cnt++;
-        if (i==999) {
-            cnt = 0;
-        }
     }
 
     cout << cnt;
