@@ -8,22 +8,22 @@ int main() {
     string C;
 
     int A_len = A.length();
-    int cnt = 0;
+    int n = 0;
     bool AA = false;
 
     for (int i = 0;i<A_len;i++) {
         if (A==B) {
-            bool AA = true;
+            AA = true;
             break;
         }
         A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
-        cnt++;
+        n++;
     }
-    if (AA=false) {
+    if (AA==false) {
         cout << -1;
     }
-    else {
-        cout << cnt;   
+    else if (AA==true) {
+        cout << n;   
     }
     // 여기에 코드를 작성해주세요.
     return 0;
