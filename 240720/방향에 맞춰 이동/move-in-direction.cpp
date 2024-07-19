@@ -5,14 +5,15 @@ int main() {
     int N;
     cin >> N;
     //동서남북
-    int dx = [1,-1,0,0];
-    int dy = [0,0,-1,1];
+    int dx[4] = {1,-1,0,0};
+    int dy[4] = {0,0,-1,1};
 
     int x=0;
     int y=0;
 
     for (int i=0;i<N;i++) {
-        char A, int B;
+        char A;
+        int B;
         cin >> A >> B;
 
         int dist = B;
