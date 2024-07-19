@@ -16,7 +16,7 @@ class nhw {
 };
 
 bool aaa(nhw a, nhw b) {
-    return a.height<=b.height;
+    return a.height<b.height;
 }
 
 int main() {
