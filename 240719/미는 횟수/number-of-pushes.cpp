@@ -9,15 +9,17 @@ int main() {
 
     int A_len = A.length();
     int cnt = 0;
+    bool AA = false;
 
     for (int i = 0;i<A_len;i++) {
         if (A==B) {
+            bool AA = true;
             break;
         }
         A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
         cnt++;
     }
-    if (cnt==0) {
+    if (AA=false) {
         cout << -1;
     }
     else {
