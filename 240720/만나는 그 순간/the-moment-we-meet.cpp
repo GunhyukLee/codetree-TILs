@@ -5,8 +5,8 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-    int A[1000]={};
-    int B[1000]={};
+    int A[10000]={};
+    int B[10000]={};
 
     A[0] = 0;
     B[0] = 0;
