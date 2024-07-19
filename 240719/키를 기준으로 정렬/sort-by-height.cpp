@@ -31,7 +31,7 @@ int main() {
         mem[i] =nhw(name, height, weight);
     }
 
-    sort(mem, mem+5,aaa);
+    sort(mem, mem+n,aaa);
     for (int i=0;i<n;i++) {
         cout << mem[i].name << " " << mem[i].height << " " << mem[i].weight << endl;
     }
