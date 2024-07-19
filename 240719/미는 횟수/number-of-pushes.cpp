@@ -10,7 +10,7 @@ int main() {
     int A_len = A.length();
     int cnt = 0;
 
-    while (1) {
+    for (int i = 0;i<100;i++) {
         A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
         cnt++;
 
