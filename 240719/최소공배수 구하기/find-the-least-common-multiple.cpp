@@ -1,20 +1,20 @@
 #include <iostream>
 using namespace std;
-
 void A(int n, int m) {
-    int i=1;
-    int minn = min(n,m);
-    int b;
-    while (1) {
-        b = minn*i;
-        if (n%b==0 && m%b==0) {
-            break;
-        }
-        else {
-            i++;
-        }
+    int min;
+    if (n>=m) {
+        min = m;
     }
-    cout << b;
+    else {
+        min = n;
+    }
+    int max = 1;
+    for (int i=1;i<=min;i++) {
+        if (n%i==0 && m%i==0) {
+            max = i;
+        }     
+    }
+    cout << n*m/max;
 }
 
 int main() {
