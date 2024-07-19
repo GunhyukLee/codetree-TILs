@@ -17,13 +17,13 @@ class Score {
 };
 
 bool com(Score a, Score b) {
-    if (a.e==b.e) {
-        return a.m>b.m;
+    if (a.k!=b.k) {
+        return a.k > b.k;
     }
-    if (a.k==b.k) {
-        return a.e > b.e;
+    if (a.e!=b.e) {
+        return a.e > b.k;
     }
-    return a.k > b.k;
+    return a.m > b.m;
 }
 int main() {
     int n;
