@@ -16,25 +16,28 @@ int LastDayNumber(int Y, int M) {
         return 29;
     else if (M == 2 && A(Y)==0)
         return 28;
-    if(M == 4 || M == 6 || M == 9 || M == 11)
+    else if(M == 4 || M == 6 || M == 9 || M == 11)
         return 30;
-    
-    return 31;
+    else
+        return 31;
 }
 
 // 윤년이 아닐 때 m월 d일이 존재하는지 여부를 확인하는 함수를 작성합니다.
 bool JudgeDay(int Y,int M, int D) {
     if(M <= 12 && D <= LastDayNumber(Y,M))
         return true;
-    
-    return false;
+    else {
+        return false;
+    }
 }
 
 bool C(int Y, int M, int D) {
     if (JudgeDay(Y,M,D)==1) {
         return true;
     }
-return false;
+    else {
+        return false;
+    }
 }
 
 int main() {
