@@ -18,7 +18,7 @@ int main() {
         cnt++;
         day_s++;
         
-        if (day_s > day[m1]) {
+        if (day_s > day[month_s]) {
             month_s++;
             day_s=1;
         }
