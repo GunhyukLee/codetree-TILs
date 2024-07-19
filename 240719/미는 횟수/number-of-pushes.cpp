@@ -11,12 +11,11 @@ int main() {
     int cnt = 0;
 
     for (int i = 0;i<A_len;i++) {
-        A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
-        cnt++;
-
         if (A==B) {
             break;
         }
+        A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
+        cnt++;
     }
     cout << cnt;
     // 여기에 코드를 작성해주세요.
