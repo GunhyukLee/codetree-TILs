@@ -6,8 +6,8 @@ using namespace std;
 string str;
 
 bool Palindrome(string &s) {
-    for(int i = 0; i < (int) s.length(); i++)
-        if(s[i] != s[(int) s.length() - i - 1])
+    for(int i = 0; i < s.length(); i++)
+        if(s[i] != s[ s.length() - i - 1])
             return false;
     
     return true;
