@@ -17,7 +17,12 @@ int main() {
         A = A.substr(A_len-1,1) + A.substr(0,A_len-1);
         cnt++;
     }
-    cout << cnt;
+    if (cnt==0) {
+        cout << -1;
+    }
+    else {
+        cout << cnt;   
+    }
     // 여기에 코드를 작성해주세요.
     return 0;
 }
